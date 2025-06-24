@@ -23,7 +23,7 @@ const initDB = async () => {
 initDB();
 
 app.get('/', (req, res) => {
-  res.send('Hello from Render + PostgreSQL!');
+  res.send('Hello from Render + PostgreSQL and API!');
 });
 
 app.post('/items', async (req, res) => {
